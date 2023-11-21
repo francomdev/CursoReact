@@ -1,0 +1,74 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+.movies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  
+}
+
+.app-container {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+}
+
+img {
+  border-radius: 4% / 2%;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+input {
+  height: 2.5em;
+}
+
+
+.movie {
+  text-align: center;
+}
+
+.movie h3, margin p {
+  margin: 0;
+  padding: 0;
+}
+
+.buscador {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sort {
+  cursor: pointer;
+}
